@@ -5,7 +5,16 @@
   "license": "MIT",
   "homepage": "",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n",
+    "n8n-community-node",
+    "n8n-node",
+    "n8n-community-node-package",
+    "openapi",
+    "swagger",
+    "api",
+    "automation",
+    "workflow",
+    "${safeName}"
   ],
   "author": {
     "name": "kelvinzer0",

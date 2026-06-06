@@ -53,9 +53,9 @@ That's it. No configuration files. No code. It just works.
 
 | Resource | Operations |
 |----------|------------|
-| Pet | Update Pet, Add Pet, Find Pets By Status, Find Pets By Tags, Get Pet By Id, Update Pet With Form, Delete Pet, Upload File |
-| Store | Get Inventory, Place Order, Get Order By Id, Delete Order |
-| User | Create User, Create Users With List Input, Login User, Logout User, Get User By Name, Update User, Delete User |
+| Pet | PUT Update an existing pet., POST Add a new pet to the store., GET Finds Pets by status., GET Finds Pets by tags., GET Find pet by ID., POST Updates a pet in the store with form data., DELETE Deletes a pet., POST Uploads an image. |
+| Store | GET Returns pet inventories by status., POST Place an order for a pet., GET Find purchase order by ID., DELETE Delete purchase order by identifier. |
+| User | POST Create user., POST Creates list of users with given input array., GET Logs user into the system., GET Logs out current logged in user session., GET Get user by user name., PUT Update user resource., DELETE Delete user resource. |
 
 ---
 

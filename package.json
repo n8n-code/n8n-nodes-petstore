@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-petstore",
-  "version": "1.0.11",
+  "version": "1.0.1",
   "description": "Swagger Petstore sample API",
   "license": "MIT",
   "homepage": "",

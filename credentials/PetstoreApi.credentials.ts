@@ -54,10 +54,13 @@ export class PetstoreApi implements ICredentialType {
 	};
 
 	test: ICredentialTestRequest = {
-		request: {
-			baseURL: '={{$credentials.url}}',
-			url: '/',
-			method: 'GET',
-		},
-	};
+			"request": {
+				"baseURL": "={{ $credentials.baseUrl }}",
+				"url": "/store/inventory",
+				"method": "GET",
+				"headers": {
+					"api_key": "={{ $credentials.api_key }}"
+				}
+			}
+		};
 }

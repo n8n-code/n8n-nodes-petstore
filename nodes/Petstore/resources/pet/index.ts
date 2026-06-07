@@ -615,6 +615,31 @@ export const petDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: api_key)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"api_key": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Pet"
+					],
+					"operation": [
+						"Get Pet By Id"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "POST /pet/{petId}",
 			"name": "operation",
 			"type": "notice",

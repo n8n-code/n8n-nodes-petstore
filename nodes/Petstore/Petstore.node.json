@@ -8,12 +8,12 @@
   "resources": {
     "primaryDocumentation": [
       {
-        "url": "https://github.com/kelvinzer0/n8n-nodes-petstore"
+        "url": "https://github.com/n8n-code/n8n-nodes-petstore"
       }
     ],
     "credentialDocumentation": [
       {
-        "url": "https://github.com/kelvinzer0/n8n-nodes-petstore?tab=readme-ov-file#credentials"
+        "url": "https://github.com/n8n-code/n8n-nodes-petstore?tab=readme-ov-file#credentials"
       }
     ]
   }

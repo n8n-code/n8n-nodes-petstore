@@ -85,6 +85,31 @@ export const storeDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: api_key)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"api_key": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Store"
+					],
+					"operation": [
+						"Get Inventory"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "POST /store/order",
 			"name": "operation",
 			"type": "notice",

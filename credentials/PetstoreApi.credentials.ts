@@ -10,7 +10,7 @@ export class PetstoreApi implements ICredentialType {
 
 	displayName = 'petstore API';
 
-	icon: Icon = { light: 'file:../nodes/Petstore/petstore.svg', dark: 'file:../nodes/Petstore/petstore.dark.svg' };
+	icon: Icon = { light: 'file:../nodes/Petstore/petstore.png', dark: 'file:../nodes/Petstore/petstore.dark.png' };
 
 	documentationUrl = '';
 

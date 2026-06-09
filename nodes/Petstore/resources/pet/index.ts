@@ -63,8 +63,8 @@ export const petDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pet By Id",
-					"value": "Get Pet By Id",
+					"name": "Get Pet By ID",
+					"value": "Get Pet By ID",
 					"action": "Find pet by ID.",
 					"description": "Returns a single pet.",
 					"routing": {
@@ -133,7 +133,7 @@ export const petDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 10,
@@ -313,7 +313,7 @@ export const petDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 10,
@@ -591,13 +591,13 @@ export const petDescription: INodeProperties[] = [
 						"Pet"
 					],
 					"operation": [
-						"Get Pet By Id"
+						"Get Pet By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Pet Id",
+			"displayName": "Pet ID",
 			"name": "petId",
 			"required": true,
 			"description": "ID of pet to return",
@@ -609,13 +609,13 @@ export const petDescription: INodeProperties[] = [
 						"Pet"
 					],
 					"operation": [
-						"Get Pet By Id"
+						"Get Pet By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -634,7 +634,7 @@ export const petDescription: INodeProperties[] = [
 						"Pet"
 					],
 					"operation": [
-						"Get Pet By Id"
+						"Get Pet By ID"
 					]
 				}
 			}
@@ -659,7 +659,7 @@ export const petDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Pet Id",
+			"displayName": "Pet ID",
 			"name": "petId",
 			"required": true,
 			"description": "ID of pet that needs to be updated",
@@ -746,7 +746,7 @@ export const petDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "api_key",
 			"description": "",
 			"default": "",
@@ -770,7 +770,7 @@ export const petDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Pet Id",
+			"displayName": "Pet ID",
 			"name": "petId",
 			"required": true,
 			"description": "Pet id to delete",
@@ -807,7 +807,7 @@ export const petDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Pet Id",
+			"displayName": "Pet ID",
 			"name": "petId",
 			"required": true,
 			"description": "ID of pet to update",

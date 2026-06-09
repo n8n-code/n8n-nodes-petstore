@@ -121,7 +121,7 @@ export const userDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 10,
@@ -516,7 +516,7 @@ export const userDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 10,

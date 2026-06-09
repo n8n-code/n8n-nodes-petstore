@@ -39,8 +39,8 @@ export const storeDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Order By Id",
-					"value": "Get Order By Id",
+					"name": "Get Order By ID",
+					"value": "Get Order By ID",
 					"action": "Find purchase order by ID.",
 					"description": "For valid response try integer IDs with value <= 5 or > 10. Other values will generate exceptions.",
 					"routing": {
@@ -85,7 +85,7 @@ export const storeDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -129,7 +129,7 @@ export const storeDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 10,
@@ -153,7 +153,7 @@ export const storeDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Pet Id",
+			"displayName": "Pet ID",
 			"name": "petId",
 			"type": "number",
 			"default": 198772,
@@ -301,13 +301,13 @@ export const storeDescription: INodeProperties[] = [
 						"Store"
 					],
 					"operation": [
-						"Get Order By Id"
+						"Get Order By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Order Id",
+			"displayName": "Order ID",
 			"name": "orderId",
 			"required": true,
 			"description": "ID of order that needs to be fetched",
@@ -319,7 +319,7 @@ export const storeDescription: INodeProperties[] = [
 						"Store"
 					],
 					"operation": [
-						"Get Order By Id"
+						"Get Order By ID"
 					]
 				}
 			}
@@ -344,7 +344,7 @@ export const storeDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Order Id",
+			"displayName": "Order ID",
 			"name": "orderId",
 			"required": true,
 			"description": "ID of the order that needs to be deleted",

@@ -53,11 +53,42 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Pet | PUT Update an existing pet., POST Add a new pet to the store., GET Finds Pets by status., GET Finds Pets by tags., GET Find pet by ID., POST Updates a pet in the store with form data., DELETE Deletes a pet., POST Uploads an image. |
-| Store | GET Returns pet inventories by status., POST Place an order for a pet., GET Find purchase order by ID., DELETE Delete purchase order by identifier. |
-| User | POST Create user., POST Creates list of users with given input array., GET Logs user into the system., GET Logs out current logged in user session., GET Get user by user name., PUT Update user resource., DELETE Delete user resource. |
+<details>
+<summary><b>Pet</b> (8 operations)</summary>
+
+- Put Update an existing pet
+- Post Add a new pet to the store
+- Get Finds Pets by status
+- Get Finds Pets by tags
+- Get Find pet by ID
+- Post Updates a pet in the store with form data
+- Delete s a pet
+- Post Uploads an image
+
+</details>
+
+<details>
+<summary><b>Store</b> (4 operations)</summary>
+
+- Get Returns pet inventories by status
+- Post Place an order for a pet
+- Get Find purchase order by ID
+- Delete purchase order by identifier
+
+</details>
+
+<details>
+<summary><b>User</b> (7 operations)</summary>
+
+- Post Create user
+- Post Creates list of users with given input array
+- Get Logs user into the system
+- Get Logs out current logged in user session
+- Get user by user name
+- Put Update user resource
+- Delete user resource
+
+</details>
 
 ---
 

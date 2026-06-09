@@ -5,14 +5,14 @@ import { userDescription } from './resources/user';
 
 export class Petstore implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'petstore',
+		displayName: 'Petstore',
 		name: 'N8nDevPetstore',
 		icon: { light: 'file:./petstore.png', dark: 'file:./petstore.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Swagger Petstore sample API',
-		defaults: { name: 'petstore' },
+		defaults: { name: 'Petstore' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

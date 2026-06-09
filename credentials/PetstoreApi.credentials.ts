@@ -8,7 +8,7 @@ import type {
 export class PetstoreApi implements ICredentialType {
 	name = 'N8nDevPetstoreApi';
 
-	displayName = 'petstore API';
+	displayName = 'Petstore API';
 
 	icon: Icon = { light: 'file:../nodes/Petstore/petstore.png', dark: 'file:../nodes/Petstore/petstore.dark.png' };
 
@@ -22,7 +22,7 @@ export class PetstoreApi implements ICredentialType {
 			default: '/api/v3',
 			required: true,
 			placeholder: '/api/v3',
-			description: 'The base URL of your petstore API server',
+			description: 'The base URL of your Petstore API server',
 		},
 		{
 			displayName: 'API Key',

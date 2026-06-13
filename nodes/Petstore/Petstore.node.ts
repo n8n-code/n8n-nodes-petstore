@@ -4,32 +4,32 @@ import { storeDescription } from './resources/store';
 import { userDescription } from './resources/user';
 
 export class Petstore implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Petstore',
-		name: 'N8nDevPetstore',
-		icon: { light: 'file:./petstore.png', dark: 'file:./petstore.dark.png' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Swagger Petstore sample API',
-		defaults: { name: 'Petstore' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevPetstoreApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Petstore',
+                name: 'N8nDevPetstore',
+                icon: { light: 'file:./petstore.png', dark: 'file:./petstore.dark.png' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Swagger Petstore sample API',
+                defaults: { name: 'Petstore' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevPetstoreApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -57,6 +57,6 @@ export class Petstore implements INodeType {
 		...petDescription,
 		...storeDescription,
 		...userDescription
-		],
-	};
+                ],
+        };
 }
